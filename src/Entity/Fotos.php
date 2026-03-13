@@ -28,6 +28,8 @@ class Fotos
     #[ORM\Column(length: 255, nullable: true)]
     private ?string $comment = null;
 
+
+
     public function getId(): ?int
     {
         return $this->id;

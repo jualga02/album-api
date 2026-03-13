@@ -8,3 +8,6 @@ nelmio_cors:
         max_age: 3600
     paths:
         '^/': null
+        "^/api/":
+            origin_regex: true
+            allow_origin: ["^http://localhost:[0-9]+"]
